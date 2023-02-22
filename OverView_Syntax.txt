@@ -1,0 +1,66 @@
+(Music) Hello. Welcome to The JavaScript language,
+Overview and Syntax. After watching this video, you will be able
+to describe JavaScript primitives and objects. JavaScript is a scripting language that is
+derived from the ECMAScript standard and originally designed to run on the Netscape Navigator
+browser. Virtually all browsers now support JavaScript. Although the name “Java” appears in the
+word “JavaScript”, the two languages are not related. When a JavaScript interpreter is embedded
+in a browser, the result is the ability to create dynamic web pages: JavaScript adds behavior to otherwise static
+web content. The content of a web page can be dynamically
+changed with the scripting capability of the JavaScript interpreter. JavaScript code acts on the document object
+model that the web browser generates. One of the ways that server programming and
+browser scripting work together is in an architecture that is called Ajax, or Asynchronous JavaScript
+and XML. The term "Ajax" encompasses more than asynchronous
+server calls through JavaScript and XML. Ajax represents a series of techniques that
+provide richer, interactive web applications through HTML, JavaScript, Cascading style
+sheets, and modifying the web page through the Document Object Model. Nowadays, JSON is commonly used instead of
+XML. In JavaScript, there are five primitive types
+that are associated with various primitive values: Number: All numbers, such as 0 or 3.1412, String: All strings, such as “Hello World”, Boolean: The values true or false, Null: The value null. Undefined: The value undefined, since a data
+type has not been assigned or the variable does not exist. All other non-primitive data types are objects. The number primitive represents both integer
+and floating point values, the value NaN (not a number), and Infinity. Integers can be coded as base 10 (decimal),
+base 8 (octal), or base 16 (hexadecimal) values. The integer literal 16 in decimal, 020 in
+octal, and 0x10 in hexadecimal all have the same value. All numbers in JavaScript are represented
+internally as double precision or 64 bit floating point numbers. JavaScript strings are delimited by either
+double or single quotation marks. There is no behavior or methods that are associated
+with primitive data types. The primitive types number, string, and boolean
+can be wrapped by their object counterparts. Wrapper objects have the same name as the
+primitive type, except they start with an uppercase letter. Like most object-oriented programming languages,
+JavaScript provides built-in ways to convert between these wrapper objects and primitive
+values. The wrapper objects use special methods such
+as the valueOf and toString methods to convert between objects and primitive literals. The typeof keyword in JavaScript is used to
+find out the data type of the supplied operand. Notice how strings created without the new
+keyword have a type of string. The keyword new is used to create the String
+wrapper object. This object can be converted to a primitive
+string type by calling the valueOf function on the object wrapper class. Arrays are specialized collection objects
+that aid the programmer in the storage and retrieval of data by indexed keys. Arrays use a zero-based indexing scheme, meaning
+that the first element of an array has an index of zero. Arrays grow or shrink dynamically by adding
+or removing elements. The length property holds the number of elements
+that occur in the array. Arrays can be declared by using either an
+array constructor or an array literal. When declaring an array with a constructor,
+you use the new array keywords and specify the array elements as parameters of the new
+array. Array literals are created by declaring the
+array elements within square brackets. You then assign the array to a variable, as
+seen in the last example on the slide. The Date object is a specialized object that
+is used to hold the date and time. The constructor for a date object is in the
+format: new Date ([with optional parameters]). If you create a Date object without any parameters,
+JavaScript returns an object that contains the current local date and time. If you send this date object to the console
+or try to display the date object on a web page, JavaScript automatically applies a toString
+method to the object. The result that is displayed is a string version
+of the date as shown on this slide. You can also create new dates by passing parameters
+to the new Date function. Examples on the slide show how either string
+or numeric values can be used for the date parameters when creating new date objects. As with other object-oriented languages, JavaScript
+creates error object instances when an exception occurs. The error object instance includes two properties
+that contain information about the error: The message property contains a description
+about the error. The name property identifies the type of error
+such as a RangeError. A RangeError is an error instance that is
+created when a numeric value or parameter is outside of its valid range. Besides a generic error, there are six other
+core errors types in JavaScript, three of which are shown on the slide. The other three are EvalError, ReferenceError,
+and SyntaxError. The Error object can be extended to create
+custom error types. The last line of the slide shows the creation
+of a generic error object with a custom error message in the parameter field. In this video, you learned: JavaScript is a scripting language that adds
+behavior to otherwise static web content. Primitives are values, and have no properties
+or methods. Examples of primitives include: number, string, boolean, null, and undefined. Wrapper objects allow objects of corresponding
+primitive data types to be created. Wrapper objects can store a primitive value
+and provide methods with which to process it. Wrapper objects have the same name as the
+primitive type, but they begin with a capital letter to differentiate them from the primitive
+data type itself. Some examples of wrapper objects are array,
+date, and error objects.
